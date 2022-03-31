@@ -1,0 +1,966 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+                              System\startup_stm32f10x.o (__libc_init_array)
+
+Allocating common symbols
+Common symbol       size              file
+
+arr                 0x64              src\APP\main.o
+RXFrameBuffer       0xc               src\Services\MTP\MTP.o
+ReceivedByte        0x1               src\Services\MTP\MTP.o
+TXFrameBuffer       0xc               src\Services\MTP\MTP.o
+msg                 0xc               src\APP\BootloaderProcess.o
+USART1_func         0x4               src\MCAL\UART\UART_program.o
+buffer              0xbb8             src\APP\BootloaderProcess.o
+CMD                 0x1               src\APP\BootloaderProcess.o
+MTPCyclesToBreak    0x4               src\Services\MTP\MTP.o
+ByteToSend          0x1               src\Services\MTP\MTP.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
+ .data          0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
+ .bss           0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
+ .data          0x00000000        0x4 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+ .text          0x00000000       0x14 System\startup_stm32f10x.o
+ .data          0x00000000        0x0 System\startup_stm32f10x.o
+ .bss           0x00000000        0x0 System\startup_stm32f10x.o
+ .text          0x00000000        0x0 System\stm32f1xx_it.o
+ .data          0x00000000        0x0 System\stm32f1xx_it.o
+ .bss           0x00000000        0x0 System\stm32f1xx_it.o
+ .text          0x00000000        0x0 src\APP\BootloaderProcess.o
+ .data          0x00000000        0x0 src\APP\BootloaderProcess.o
+ .bss           0x00000000        0x0 src\APP\BootloaderProcess.o
+ .text          0x00000000        0x0 src\APP\main.o
+ .data          0x00000000        0x0 src\APP\main.o
+ .bss           0x00000000        0x0 src\APP\main.o
+ .text          0x00000000        0x0 src\HAL\Interrupts\Interrupts_program.o
+ .data          0x00000000        0x0 src\HAL\Interrupts\Interrupts_program.o
+ .bss           0x00000000        0x0 src\HAL\Interrupts\Interrupts_program.o
+ .text.Interrupts_SetPriority
+                0x00000000       0x2a src\HAL\Interrupts\Interrupts_program.o
+ .text.Interrupts_GetPriority
+                0x00000000       0x28 src\HAL\Interrupts\Interrupts_program.o
+ .text.Interrupts_DisableIRQ
+                0x00000000       0x16 src\HAL\Interrupts\Interrupts_program.o
+ .text.Interrupts_GetPendingIRQ
+                0x00000000       0x18 src\HAL\Interrupts\Interrupts_program.o
+ .text.Interrupts_SetPendingIRQ
+                0x00000000       0x16 src\HAL\Interrupts\Interrupts_program.o
+ .text.Interrupts_ClearPendingIRQ
+                0x00000000       0x16 src\HAL\Interrupts\Interrupts_program.o
+ .text.Interrupts_GetActive
+                0x00000000       0x18 src\HAL\Interrupts\Interrupts_program.o
+ .text.Interrupts_SetDevicePriority
+                0x00000000       0x1a src\HAL\Interrupts\Interrupts_program.o
+ .text.Interrupts_GetDevicePriority
+                0x00000000       0x18 src\HAL\Interrupts\Interrupts_program.o
+ .text          0x00000000        0x0 src\MCAL\Core\Core_program.o
+ .data          0x00000000        0x0 src\MCAL\Core\Core_program.o
+ .bss           0x00000000        0x0 src\MCAL\Core\Core_program.o
+ .debug_line    0x00000000        0x0 src\MCAL\Core\Core_program.o
+ .debug_str     0x00000000      0x120 src\MCAL\Core\Core_program.o
+ .comment       0x00000000       0x7d src\MCAL\Core\Core_program.o
+ .ARM.attributes
+                0x00000000       0x33 src\MCAL\Core\Core_program.o
+ .text          0x00000000        0x0 src\MCAL\Flash\Flash_program.o
+ .data          0x00000000        0x0 src\MCAL\Flash\Flash_program.o
+ .bss           0x00000000        0x0 src\MCAL\Flash\Flash_program.o
+ .text.Flash_WriteWord
+                0x00000000       0x90 src\MCAL\Flash\Flash_program.o
+ .text.Flash_EraseMass
+                0x00000000       0x44 src\MCAL\Flash\Flash_program.o
+ .text          0x00000000        0x0 src\MCAL\GPIO\GPIO_program.o
+ .data          0x00000000        0x0 src\MCAL\GPIO\GPIO_program.o
+ .bss           0x00000000        0x0 src\MCAL\GPIO\GPIO_program.o
+ .text.GPIO_SetPinValue
+                0x00000000       0x6e src\MCAL\GPIO\GPIO_program.o
+ .text.GPIO_WritePort
+                0x00000000       0x2e src\MCAL\GPIO\GPIO_program.o
+ .text.GPIO_GetPinValue
+                0x00000000       0x22 src\MCAL\GPIO\GPIO_program.o
+ .text          0x00000000        0x0 src\MCAL\NVIC\NVIC_program.o
+ .data          0x00000000        0x0 src\MCAL\NVIC\NVIC_program.o
+ .bss           0x00000000        0x0 src\MCAL\NVIC\NVIC_program.o
+ .text.NVIC_DisableIRQ
+                0x00000000       0x30 src\MCAL\NVIC\NVIC_program.o
+ .text.NVIC_GetPendingIRQ
+                0x00000000       0x3c src\MCAL\NVIC\NVIC_program.o
+ .text.NVIC_SetPendingIRQ
+                0x00000000       0x30 src\MCAL\NVIC\NVIC_program.o
+ .text.NVIC_ClearPendingIRQ
+                0x00000000       0x30 src\MCAL\NVIC\NVIC_program.o
+ .text.NVIC_GetActive
+                0x00000000       0x3c src\MCAL\NVIC\NVIC_program.o
+ .text.NVIC_SetDevicePriority
+                0x00000000       0x30 src\MCAL\NVIC\NVIC_program.o
+ .text.NVIC_GetDevicePriority
+                0x00000000       0x34 src\MCAL\NVIC\NVIC_program.o
+ .text          0x00000000        0x0 src\MCAL\RCC\RCC_program.o
+ .data          0x00000000        0x0 src\MCAL\RCC\RCC_program.o
+ .bss           0x00000000        0x0 src\MCAL\RCC\RCC_program.o
+ .data.AHBPrescTable
+                0x00000000       0x10 src\MCAL\RCC\RCC_program.o
+ .text.RCC_GetSystemCoreClock
+                0x00000000       0xc8 src\MCAL\RCC\RCC_program.o
+ .text.RCC_EnableGPIOB
+                0x00000000       0x1c src\MCAL\RCC\RCC_program.o
+ .text.RCC_ResetGPIOB
+                0x00000000       0x24 src\MCAL\RCC\RCC_program.o
+ .text.RCC_DisableGPIOB
+                0x00000000       0x1c src\MCAL\RCC\RCC_program.o
+ .text.RCC_EnableGPIOC
+                0x00000000       0x1c src\MCAL\RCC\RCC_program.o
+ .text.RCC_ResetGPIOC
+                0x00000000       0x24 src\MCAL\RCC\RCC_program.o
+ .text.RCC_DisableGPIOC
+                0x00000000       0x1c src\MCAL\RCC\RCC_program.o
+ .text          0x00000000        0x0 src\MCAL\SCB\SCB_program.o
+ .data          0x00000000        0x0 src\MCAL\SCB\SCB_program.o
+ .bss           0x00000000        0x0 src\MCAL\SCB\SCB_program.o
+ .text.SCB_SetNVICPriorityGrouping
+                0x00000000       0x48 src\MCAL\SCB\SCB_program.o
+ .text.SCB_SetSystemPriority
+                0x00000000       0x34 src\MCAL\SCB\SCB_program.o
+ .text.SCB_GetSystemPriority
+                0x00000000       0x38 src\MCAL\SCB\SCB_program.o
+ .text          0x00000000        0x0 src\MCAL\UART\UART_program.o
+ .data          0x00000000        0x0 src\MCAL\UART\UART_program.o
+ .bss           0x00000000        0x0 src\MCAL\UART\UART_program.o
+ .text.UART_SendByte
+                0x00000000       0x30 src\MCAL\UART\UART_program.o
+ .text.UART_ReciveByte
+                0x00000000       0x28 src\MCAL\UART\UART_program.o
+ .text.UART_SendData
+                0x00000000       0x2e src\MCAL\UART\UART_program.o
+ .text.UART_ReceiveData
+                0x00000000       0x30 src\MCAL\UART\UART_program.o
+ .text          0x00000000        0x0 src\Services\Init\Init.o
+ .data          0x00000000        0x0 src\Services\Init\Init.o
+ .bss           0x00000000        0x0 src\Services\Init\Init.o
+ .text          0x00000000        0x0 src\Services\MTP\MTP.o
+ .data          0x00000000        0x0 src\Services\MTP\MTP.o
+ .bss           0x00000000        0x0 src\Services\MTP\MTP.o
+ .text          0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtend.o
+ .data          0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtend.o
+ .bss           0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtend.o
+ .eh_frame      0x00000000        0x4 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2d d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtend.o
+ .text          0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
+ .data          0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
+ .bss           0x00000000        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00010000         xr
+RAM              0x20000000         0x00005000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+LOAD System\startup_stm32f10x.o
+LOAD System\stm32f1xx_it.o
+LOAD src\APP\BootloaderProcess.o
+LOAD src\APP\main.o
+LOAD src\HAL\Interrupts\Interrupts_program.o
+LOAD src\MCAL\Core\Core_program.o
+LOAD src\MCAL\Flash\Flash_program.o
+LOAD src\MCAL\GPIO\GPIO_program.o
+LOAD src\MCAL\NVIC\NVIC_program.o
+LOAD src\MCAL\RCC\RCC_program.o
+LOAD src\MCAL\SCB\SCB_program.o
+LOAD src\MCAL\UART\UART_program.o
+LOAD src\Services\Init\Init.o
+LOAD src\Services\MTP\MTP.o
+                0x00000080                malloc_getpagesize_P = 0x80
+START GROUP
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libm.a
+END GROUP
+START GROUP
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m\libgcc.a
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m\libgcc.a
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libnosys.a
+END GROUP
+START GROUP
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m\libgcc.a
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libnosys.a
+END GROUP
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtend.o
+LOAD d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
+                0x20005000                _estack = 0x20005000
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000100                _Min_Stack_Size = 0x100
+
+.isr_vector     0x08000000      0x10c
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c System\startup_stm32f10x.o
+                0x08000000                g_pfnVectors
+                0x0800010c                . = ALIGN (0x4)
+
+.text           0x0800010c      0xffc
+                0x0800010c                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0800010c       0x40 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+ *(.text*)
+ .text.Reset_Handler
+                0x0800014c       0x50 System\startup_stm32f10x.o
+                0x0800014c                Reset_Handler
+ .text.Default_Handler
+                0x0800019c        0x2 System\startup_stm32f10x.o
+                0x0800019c                EXTI2_IRQHandler
+                0x0800019c                TIM1_CC_IRQHandler
+                0x0800019c                PVD_IRQHandler
+                0x0800019c                EXTI3_IRQHandler
+                0x0800019c                EXTI0_IRQHandler
+                0x0800019c                I2C2_EV_IRQHandler
+                0x0800019c                ADC1_2_IRQHandler
+                0x0800019c                SPI1_IRQHandler
+                0x0800019c                TAMPER_IRQHandler
+                0x0800019c                DMA1_Channel4_IRQHandler
+                0x0800019c                USART3_IRQHandler
+                0x0800019c                RTC_IRQHandler
+                0x0800019c                DMA1_Channel7_IRQHandler
+                0x0800019c                CAN1_RX1_IRQHandler
+                0x0800019c                TIM4_IRQHandler
+                0x0800019c                I2C1_EV_IRQHandler
+                0x0800019c                DMA1_Channel6_IRQHandler
+                0x0800019c                TIM3_IRQHandler
+                0x0800019c                RCC_IRQHandler
+                0x0800019c                TIM1_TRG_COM_IRQHandler
+                0x0800019c                DMA1_Channel1_IRQHandler
+                0x0800019c                Default_Handler
+                0x0800019c                EXTI15_10_IRQHandler
+                0x0800019c                EXTI9_5_IRQHandler
+                0x0800019c                SPI2_IRQHandler
+                0x0800019c                DMA1_Channel5_IRQHandler
+                0x0800019c                EXTI4_IRQHandler
+                0x0800019c                USB_LP_CAN1_RX0_IRQHandler
+                0x0800019c                USB_HP_CAN1_TX_IRQHandler
+                0x0800019c                DMA1_Channel3_IRQHandler
+                0x0800019c                TIM1_UP_IRQHandler
+                0x0800019c                WWDG_IRQHandler
+                0x0800019c                TIM2_IRQHandler
+                0x0800019c                TIM1_BRK_IRQHandler
+                0x0800019c                EXTI1_IRQHandler
+                0x0800019c                RTCAlarm_IRQHandler
+                0x0800019c                USART2_IRQHandler
+                0x0800019c                I2C2_ER_IRQHandler
+                0x0800019c                DMA1_Channel2_IRQHandler
+                0x0800019c                CAN1_SCE_IRQHandler
+                0x0800019c                FLASH_IRQHandler
+                0x0800019c                I2C1_ER_IRQHandler
+                0x0800019c                USBWakeUp_IRQHandler
+ .text.NMI_Handler
+                0x0800019e        0xc System\stm32f1xx_it.o
+                0x0800019e                NMI_Handler
+ .text.HardFault_Handler
+                0x080001aa        0x6 System\stm32f1xx_it.o
+                0x080001aa                HardFault_Handler
+ .text.MemManage_Handler
+                0x080001b0        0x6 System\stm32f1xx_it.o
+                0x080001b0                MemManage_Handler
+ .text.BusFault_Handler
+                0x080001b6        0x6 System\stm32f1xx_it.o
+                0x080001b6                BusFault_Handler
+ .text.UsageFault_Handler
+                0x080001bc        0x6 System\stm32f1xx_it.o
+                0x080001bc                UsageFault_Handler
+ .text.SVC_Handler
+                0x080001c2        0xc System\stm32f1xx_it.o
+                0x080001c2                SVC_Handler
+ .text.DebugMon_Handler
+                0x080001ce        0xc System\stm32f1xx_it.o
+                0x080001ce                DebugMon_Handler
+ .text.PendSV_Handler
+                0x080001da        0xc System\stm32f1xx_it.o
+                0x080001da                PendSV_Handler
+ .text.SysTick_Handler
+                0x080001e6        0xc System\stm32f1xx_it.o
+                0x080001e6                SysTick_Handler
+ .text.__disable_irq
+                0x080001f2        0xe src\APP\BootloaderProcess.o
+ .text.Bootloader_Main
+                0x08000200       0x38 src\APP\BootloaderProcess.o
+                0x08000200                Bootloader_Main
+ .text.Command_Process
+                0x08000238      0x13c src\APP\BootloaderProcess.o
+ .text.HardwareReset
+                0x08000374       0x1c src\APP\BootloaderProcess.o
+ .text.JumpToApp
+                0x08000390        0x8 src\APP\BootloaderProcess.o
+ .text.main     0x08000398       0x1c src\APP\main.o
+                0x08000398                main
+ .text.Interrupts_EnableIRQ
+                0x080003b4       0x16 src\HAL\Interrupts\Interrupts_program.o
+                0x080003b4                Interrupts_EnableIRQ
+ *fill*         0x080003ca        0x2 
+ .text.Flash_WriteData
+                0x080003cc       0xa8 src\MCAL\Flash\Flash_program.o
+                0x080003cc                Flash_WriteData
+ .text.Flash_ErasePage
+                0x08000474       0x84 src\MCAL\Flash\Flash_program.o
+                0x08000474                Flash_ErasePage
+ .text.Flash_Lock
+                0x080004f8       0x38 src\MCAL\Flash\Flash_program.o
+                0x080004f8                Flash_Lock
+ .text.Flash_Unlock
+                0x08000530       0x40 src\MCAL\Flash\Flash_program.o
+                0x08000530                Flash_Unlock
+ .text.Flash_EnablePrefetchBuffer
+                0x08000570       0x1c src\MCAL\Flash\Flash_program.o
+                0x08000570                Flash_EnablePrefetchBuffer
+ .text.Flash_SetLatency
+                0x0800058c       0x40 src\MCAL\Flash\Flash_program.o
+                0x0800058c                Flash_SetLatency
+ .text.GPIO_Init
+                0x080005cc       0xce src\MCAL\GPIO\GPIO_program.o
+                0x080005cc                GPIO_Init
+ *fill*         0x0800069a        0x2 
+ .text.NVIC_EnableIRQ
+                0x0800069c       0x2c src\MCAL\NVIC\NVIC_program.o
+                0x0800069c                NVIC_EnableIRQ
+ .text.RCCSystemInit
+                0x080006c8       0x6c src\MCAL\RCC\RCC_program.o
+                0x080006c8                RCCSystemInit
+ .text.RCC_StartHSE
+                0x08000734       0x58 src\MCAL\RCC\RCC_program.o
+                0x08000734                RCC_StartHSE
+ .text.RCC_SetSystemClock72MHz
+                0x0800078c       0x84 src\MCAL\RCC\RCC_program.o
+                0x0800078c                RCC_SetSystemClock72MHz
+ .text.RCC_EnableGPIOA
+                0x08000810       0x1c src\MCAL\RCC\RCC_program.o
+                0x08000810                RCC_EnableGPIOA
+ .text.RCC_ResetGPIOA
+                0x0800082c       0x24 src\MCAL\RCC\RCC_program.o
+                0x0800082c                RCC_ResetGPIOA
+ .text.RCC_DisableGPIOA
+                0x08000850       0x1c src\MCAL\RCC\RCC_program.o
+                0x08000850                RCC_DisableGPIOA
+ .text.RCC_EnableUART
+                0x0800086c       0x1c src\MCAL\RCC\RCC_program.o
+                0x0800086c                RCC_EnableUART
+ .text.RCC_ResetUART
+                0x08000888       0x24 src\MCAL\RCC\RCC_program.o
+                0x08000888                RCC_ResetUART
+ .text.RCC_DisableUART
+                0x080008ac       0x1c src\MCAL\RCC\RCC_program.o
+                0x080008ac                RCC_DisableUART
+ .text.SCB_SetVectorTableOffset
+                0x080008c8       0x24 src\MCAL\SCB\SCB_program.o
+                0x080008c8                SCB_SetVectorTableOffset
+ .text.UART_Init
+                0x080008ec       0x5c src\MCAL\UART\UART_program.o
+                0x080008ec                UART_Init
+ .text.UART_Enable
+                0x08000948       0x60 src\MCAL\UART\UART_program.o
+                0x08000948                UART_Enable
+ .text.UART_Disable
+                0x080009a8       0x60 src\MCAL\UART\UART_program.o
+                0x080009a8                UART_Disable
+ .text.UART_WriteToBuffer
+                0x08000a08       0x20 src\MCAL\UART\UART_program.o
+                0x08000a08                UART_WriteToBuffer
+ .text.UART_ReadBuffer
+                0x08000a28       0x18 src\MCAL\UART\UART_program.o
+                0x08000a28                UART_ReadBuffer
+ .text.UART_SetInterruptHandler
+                0x08000a40       0x1c src\MCAL\UART\UART_program.o
+                0x08000a40                UART_SetInterruptHandler
+ .text.USART1_IRQHandler
+                0x08000a5c       0x74 src\MCAL\UART\UART_program.o
+                0x08000a5c                USART1_IRQHandler
+ .text.SystemInit
+                0x08000ad0       0x18 src\Services\Init\Init.o
+                0x08000ad0                SystemInit
+ .text.SetSysClockTo72
+                0x08000ae8       0x30 src\Services\Init\Init.o
+ .text.MTP_Init
+                0x08000b18       0x58 src\Services\MTP\MTP.o
+                0x08000b18                MTP_Init
+ .text.MTP_Notify
+                0x08000b70       0x88 src\Services\MTP\MTP.o
+                0x08000b70                MTP_Notify
+ .text.MTP_ReceiveProcess
+                0x08000bf8      0x21c src\Services\MTP\MTP.o
+                0x08000bf8                MTP_ReceiveProcess
+ .text.MTP_ReceiveData
+                0x08000e14       0x64 src\Services\MTP\MTP.o
+                0x08000e14                MTP_ReceiveData
+ .text.MTP_SendProcess
+                0x08000e78      0x170 src\Services\MTP\MTP.o
+                0x08000e78                MTP_SendProcess
+ .text.MTP_SendData
+                0x08000fe8       0xc0 src\Services\MTP\MTP.o
+                0x08000fe8                MTP_SendData
+ .text.__libc_init_array
+                0x080010a8       0x48 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+                0x080010a8                __libc_init_array
+ *(.glue_7)
+ .glue_7        0x080010f0        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080010f0        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x080010f0        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+ *(.init)
+ .init          0x080010f0        0x4 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
+                0x080010f0                _init
+ .init          0x080010f4        0x8 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
+ *(.fini)
+ .fini          0x080010fc        0x4 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
+                0x080010fc                _fini
+ .fini          0x08001100        0x8 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
+                0x08001108                . = ALIGN (0x4)
+                0x08001108                _etext = .
+
+.vfp11_veneer   0x08001108        0x0
+ .vfp11_veneer  0x08001108        0x0 linker stubs
+
+.v4_bx          0x08001108        0x0
+ .v4_bx         0x08001108        0x0 linker stubs
+
+.iplt           0x08001108        0x0
+ .iplt          0x08001108        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+
+.rel.dyn        0x08001108        0x0
+ .rel.iplt      0x08001108        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+
+.rodata         0x08001108        0x0
+                0x08001108                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+                0x08001108                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08001108        0x0
+                0x08001108                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08001108                __exidx_end = .
+
+.preinit_array  0x08001108        0x0
+                0x08001108                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x08001108                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x08001108        0x4
+                0x08001108                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x08001108        0x4 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+                0x0800110c                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0800110c        0x4
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x0800110c        0x4 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end, .)
+                0x08001110                _sidata = LOADADDR (.data)
+
+.data           0x20000000       0x1c load address 0x08001110
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.MTPWaitCycles
+                0x20000000        0x4 src\Services\MTP\MTP.o
+                0x20000000                MTPWaitCycles
+ .data.UARTPins
+                0x20000004       0x18 src\Services\MTP\MTP.o
+                0x20000004                UARTPins
+                0x2000001c                . = ALIGN (0x4)
+                0x2000001c                _edata = .
+
+.igot.plt       0x2000001c        0x0 load address 0x0800112c
+ .igot.plt      0x2000001c        0x0 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+                0x2000001c                . = ALIGN (0x4)
+
+.bss            0x2000001c      0xc74 load address 0x0800112c
+                0x2000001c                _sbss = .
+                0x2000001c                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x2000001c       0x1c d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+ *(.bss*)
+ .bss.ReceiveProcessState
+                0x20000038        0x1 src\Services\MTP\MTP.o
+                0x20000038                ReceiveProcessState
+ .bss.SendProcessState
+                0x20000039        0x1 src\Services\MTP\MTP.o
+                0x20000039                SendProcessState
+ .bss.ReceivedByteState
+                0x2000003a        0x1 src\Services\MTP\MTP.o
+                0x2000003a                ReceivedByteState
+ .bss.SentByteState
+                0x2000003b        0x1 src\Services\MTP\MTP.o
+                0x2000003b                SentByteState
+ *(COMMON)
+ COMMON         0x2000003c      0xbc5 src\APP\BootloaderProcess.o
+                0x2000003c                msg
+                0x20000048                buffer
+                0x20000c00                CMD
+ *fill*         0x20000c01        0x3 
+ COMMON         0x20000c04       0x64 src\APP\main.o
+                0x20000c04                arr
+ COMMON         0x20000c68        0x4 src\MCAL\UART\UART_program.o
+                0x20000c68                USART1_func
+ COMMON         0x20000c6c       0x21 src\Services\MTP\MTP.o
+                0x20000c6c                RXFrameBuffer
+                0x20000c78                ReceivedByte
+                0x20000c7c                TXFrameBuffer
+                0x20000c88                MTPCyclesToBreak
+                0x20000c8c                ByteToSend
+                0x20000c90                . = ALIGN (0x4)
+ *fill*         0x20000c8d        0x3 
+                0x20000c90                _ebss = .
+                0x20000c90                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20000c90      0x100 load address 0x0800112c
+                0x20000c90                . = ALIGN (0x4)
+                [!provide]                PROVIDE (end, .)
+                [!provide]                PROVIDE (_end, .)
+                0x20000c90                . = (. + _Min_Heap_Size)
+                0x20000d90                . = (. + _Min_Stack_Size)
+ *fill*         0x20000c90      0x100 
+                0x20000d90                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x29
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1d d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x21 System\startup_stm32f10x.o
+ .ARM.attributes
+                0x0000006b       0x33 System\stm32f1xx_it.o
+ .ARM.attributes
+                0x0000009e       0x33 src\APP\BootloaderProcess.o
+ .ARM.attributes
+                0x000000d1       0x33 src\APP\main.o
+ .ARM.attributes
+                0x00000104       0x33 src\HAL\Interrupts\Interrupts_program.o
+ .ARM.attributes
+                0x00000137       0x33 src\MCAL\Flash\Flash_program.o
+ .ARM.attributes
+                0x0000016a       0x33 src\MCAL\GPIO\GPIO_program.o
+ .ARM.attributes
+                0x0000019d       0x33 src\MCAL\NVIC\NVIC_program.o
+ .ARM.attributes
+                0x000001d0       0x33 src\MCAL\RCC\RCC_program.o
+ .ARM.attributes
+                0x00000203       0x33 src\MCAL\SCB\SCB_program.o
+ .ARM.attributes
+                0x00000236       0x33 src\MCAL\UART\UART_program.o
+ .ARM.attributes
+                0x00000269       0x33 src\Services\Init\Init.o
+ .ARM.attributes
+                0x0000029c       0x33 src\Services\MTP\MTP.o
+ .ARM.attributes
+                0x000002cf       0x2d d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000002fc       0x1d d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
+OUTPUT(BOOTLOADER_STM32.elf elf32-littlearm)
+
+.debug_line     0x00000000     0x1261
+ .debug_line    0x00000000       0x7c System\startup_stm32f10x.o
+ .debug_line    0x0000007c       0xe0 System\stm32f1xx_it.o
+ .debug_line    0x0000015c      0x20e src\APP\BootloaderProcess.o
+ .debug_line    0x0000036a      0x116 src\APP\main.o
+ .debug_line    0x00000480      0x163 src\HAL\Interrupts\Interrupts_program.o
+ .debug_line    0x000005e3      0x1ca src\MCAL\Flash\Flash_program.o
+ .debug_line    0x000007ad      0x12e src\MCAL\GPIO\GPIO_program.o
+ .debug_line    0x000008db      0x163 src\MCAL\NVIC\NVIC_program.o
+ .debug_line    0x00000a3e      0x22c src\MCAL\RCC\RCC_program.o
+ .debug_line    0x00000c6a      0x103 src\MCAL\SCB\SCB_program.o
+ .debug_line    0x00000d6d      0x1ac src\MCAL\UART\UART_program.o
+ .debug_line    0x00000f19       0xca src\Services\Init\Init.o
+ .debug_line    0x00000fe3      0x27e src\Services\MTP\MTP.o
+
+.debug_info     0x00000000     0x1f40
+ .debug_info    0x00000000       0x97 System\startup_stm32f10x.o
+ .debug_info    0x00000097       0xf0 System\stm32f1xx_it.o
+ .debug_info    0x00000187      0x1e0 src\APP\BootloaderProcess.o
+ .debug_info    0x00000367      0x124 src\APP\main.o
+ .debug_info    0x0000048b      0x248 src\HAL\Interrupts\Interrupts_program.o
+ .debug_info    0x000006d3      0x300 src\MCAL\Flash\Flash_program.o
+ .debug_info    0x000009d3      0x2ab src\MCAL\GPIO\GPIO_program.o
+ .debug_info    0x00000c7e      0x32f src\MCAL\NVIC\NVIC_program.o
+ .debug_info    0x00000fad      0x386 src\MCAL\RCC\RCC_program.o
+ .debug_info    0x00001333      0x322 src\MCAL\SCB\SCB_program.o
+ .debug_info    0x00001655      0x31d src\MCAL\UART\UART_program.o
+ .debug_info    0x00001972       0xec src\Services\Init\Init.o
+ .debug_info    0x00001a5e      0x4e2 src\Services\MTP\MTP.o
+
+.debug_abbrev   0x00000000      0xb16
+ .debug_abbrev  0x00000000       0x12 System\startup_stm32f10x.o
+ .debug_abbrev  0x00000012       0x2e System\stm32f1xx_it.o
+ .debug_abbrev  0x00000040      0x172 src\APP\BootloaderProcess.o
+ .debug_abbrev  0x000001b2       0xb7 src\APP\main.o
+ .debug_abbrev  0x00000269       0x8b src\HAL\Interrupts\Interrupts_program.o
+ .debug_abbrev  0x000002f4       0xf5 src\MCAL\Flash\Flash_program.o
+ .debug_abbrev  0x000003e9       0xe5 src\MCAL\GPIO\GPIO_program.o
+ .debug_abbrev  0x000004ce       0xe5 src\MCAL\NVIC\NVIC_program.o
+ .debug_abbrev  0x000005b3      0x117 src\MCAL\RCC\RCC_program.o
+ .debug_abbrev  0x000006ca       0xf2 src\MCAL\SCB\SCB_program.o
+ .debug_abbrev  0x000007bc      0x12a src\MCAL\UART\UART_program.o
+ .debug_abbrev  0x000008e6       0xa2 src\Services\Init\Init.o
+ .debug_abbrev  0x00000988      0x18e src\Services\MTP\MTP.o
+
+.debug_aranges  0x00000000      0x3e8
+ .debug_aranges
+                0x00000000       0x28 System\startup_stm32f10x.o
+ .debug_aranges
+                0x00000028       0x60 System\stm32f1xx_it.o
+ .debug_aranges
+                0x00000088       0x40 src\APP\BootloaderProcess.o
+ .debug_aranges
+                0x000000c8       0x20 src\APP\main.o
+ .debug_aranges
+                0x000000e8       0x68 src\HAL\Interrupts\Interrupts_program.o
+ .debug_aranges
+                0x00000150       0x58 src\MCAL\Flash\Flash_program.o
+ .debug_aranges
+                0x000001a8       0x38 src\MCAL\GPIO\GPIO_program.o
+ .debug_aranges
+                0x000001e0       0x58 src\MCAL\NVIC\NVIC_program.o
+ .debug_aranges
+                0x00000238       0x98 src\MCAL\RCC\RCC_program.o
+ .debug_aranges
+                0x000002d0       0x38 src\MCAL\SCB\SCB_program.o
+ .debug_aranges
+                0x00000308       0x70 src\MCAL\UART\UART_program.o
+ .debug_aranges
+                0x00000378       0x28 src\Services\Init\Init.o
+ .debug_aranges
+                0x000003a0       0x48 src\Services\MTP\MTP.o
+
+.debug_ranges   0x00000000      0x320
+ .debug_ranges  0x00000000       0x20 System\startup_stm32f10x.o
+ .debug_ranges  0x00000020       0x50 System\stm32f1xx_it.o
+ .debug_ranges  0x00000070       0x30 src\APP\BootloaderProcess.o
+ .debug_ranges  0x000000a0       0x10 src\APP\main.o
+ .debug_ranges  0x000000b0       0x58 src\HAL\Interrupts\Interrupts_program.o
+ .debug_ranges  0x00000108       0x48 src\MCAL\Flash\Flash_program.o
+ .debug_ranges  0x00000150       0x28 src\MCAL\GPIO\GPIO_program.o
+ .debug_ranges  0x00000178       0x48 src\MCAL\NVIC\NVIC_program.o
+ .debug_ranges  0x000001c0       0x88 src\MCAL\RCC\RCC_program.o
+ .debug_ranges  0x00000248       0x28 src\MCAL\SCB\SCB_program.o
+ .debug_ranges  0x00000270       0x60 src\MCAL\UART\UART_program.o
+ .debug_ranges  0x000002d0       0x18 src\Services\Init\Init.o
+ .debug_ranges  0x000002e8       0x38 src\Services\MTP\MTP.o
+
+.debug_loc      0x00000000     0x18dc
+ .debug_loc     0x00000000      0x204 System\stm32f1xx_it.o
+ .debug_loc     0x00000204       0xec src\APP\BootloaderProcess.o
+ .debug_loc     0x000002f0       0x2c src\APP\main.o
+ .debug_loc     0x0000031c      0x320 src\HAL\Interrupts\Interrupts_program.o
+ .debug_loc     0x0000063c      0x2b0 src\MCAL\Flash\Flash_program.o
+ .debug_loc     0x000008ec      0x170 src\MCAL\GPIO\GPIO_program.o
+ .debug_loc     0x00000a5c      0x2e0 src\MCAL\NVIC\NVIC_program.o
+ .debug_loc     0x00000d3c      0x470 src\MCAL\RCC\RCC_program.o
+ .debug_loc     0x000011ac      0x170 src\MCAL\SCB\SCB_program.o
+ .debug_loc     0x0000131c      0x358 src\MCAL\UART\UART_program.o
+ .debug_loc     0x00001674       0x7c src\Services\Init\Init.o
+ .debug_loc     0x000016f0      0x1ec src\Services\MTP\MTP.o
+
+.debug_str      0x00000000      0xda1
+ .debug_str     0x00000000      0x1a9 System\stm32f1xx_it.o
+ .debug_str     0x000001a9       0xf2 src\APP\BootloaderProcess.o
+                                0x215 (size before relaxing)
+ .debug_str     0x0000029b       0x17 src\APP\main.o
+                                0x1b1 (size before relaxing)
+ .debug_str     0x000002b2      0x12e src\HAL\Interrupts\Interrupts_program.o
+                                0x2a7 (size before relaxing)
+ .debug_str     0x000003e0      0x122 src\MCAL\Flash\Flash_program.o
+                                0x2bc (size before relaxing)
+ .debug_str     0x00000502       0xa8 src\MCAL\GPIO\GPIO_program.o
+                                0x240 (size before relaxing)
+ .debug_str     0x000005aa      0x11a src\MCAL\NVIC\NVIC_program.o
+                                0x2aa (size before relaxing)
+ .debug_str     0x000006c4      0x19f src\MCAL\RCC\RCC_program.o
+                                0x34c (size before relaxing)
+ .debug_str     0x00000863       0xfc src\MCAL\SCB\SCB_program.o
+                                0x29e (size before relaxing)
+ .debug_str     0x0000095f      0x107 src\MCAL\UART\UART_program.o
+                                0x2c6 (size before relaxing)
+ .debug_str     0x00000a66       0x36 src\Services\Init\Init.o
+                                0x1c9 (size before relaxing)
+ .debug_str     0x00000a9c      0x305 src\Services\MTP\MTP.o
+                                0x4f0 (size before relaxing)
+
+.comment        0x00000000       0x7c
+ .comment       0x00000000       0x7c System\stm32f1xx_it.o
+                                 0x7d (size before relaxing)
+ .comment       0x0000007c       0x7d src\APP\BootloaderProcess.o
+ .comment       0x0000007c       0x7d src\APP\main.o
+ .comment       0x0000007c       0x7d src\HAL\Interrupts\Interrupts_program.o
+ .comment       0x0000007c       0x7d src\MCAL\Flash\Flash_program.o
+ .comment       0x0000007c       0x7d src\MCAL\GPIO\GPIO_program.o
+ .comment       0x0000007c       0x7d src\MCAL\NVIC\NVIC_program.o
+ .comment       0x0000007c       0x7d src\MCAL\RCC\RCC_program.o
+ .comment       0x0000007c       0x7d src\MCAL\SCB\SCB_program.o
+ .comment       0x0000007c       0x7d src\MCAL\UART\UART_program.o
+ .comment       0x0000007c       0x7d src\Services\Init\Init.o
+ .comment       0x0000007c       0x7d src\Services\MTP\MTP.o
+
+.debug_frame    0x00000000      0xc5c
+ .debug_frame   0x00000000      0x110 System\stm32f1xx_it.o
+ .debug_frame   0x00000110       0x9c src\APP\BootloaderProcess.o
+ .debug_frame   0x000001ac       0x2c src\APP\main.o
+ .debug_frame   0x000001d8      0x178 src\HAL\Interrupts\Interrupts_program.o
+ .debug_frame   0x00000350      0x140 src\MCAL\Flash\Flash_program.o
+ .debug_frame   0x00000490       0xb0 src\MCAL\GPIO\GPIO_program.o
+ .debug_frame   0x00000540      0x150 src\MCAL\NVIC\NVIC_program.o
+ .debug_frame   0x00000690      0x220 src\MCAL\RCC\RCC_program.o
+ .debug_frame   0x000008b0       0xb0 src\MCAL\SCB\SCB_program.o
+ .debug_frame   0x00000960      0x194 src\MCAL\UART\UART_program.o
+ .debug_frame   0x00000af4       0x50 src\Services\Init\Init.o
+ .debug_frame   0x00000b44       0xec src\Services\MTP\MTP.o
+ .debug_frame   0x00000c30       0x2c d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_2_IRQHandler                                 System\startup_stm32f10x.o
+AHBPrescTable                                     src\MCAL\RCC\RCC_program.o
+Bootloader_Main                                   src\APP\BootloaderProcess.o
+                                                  src\APP\main.o
+BusFault_Handler                                  System\stm32f1xx_it.o
+                                                  System\startup_stm32f10x.o
+ByteToSend                                        src\Services\MTP\MTP.o
+CAN1_RX1_IRQHandler                               System\startup_stm32f10x.o
+CAN1_SCE_IRQHandler                               System\startup_stm32f10x.o
+CMD                                               src\APP\BootloaderProcess.o
+DMA1_Channel1_IRQHandler                          System\startup_stm32f10x.o
+DMA1_Channel2_IRQHandler                          System\startup_stm32f10x.o
+DMA1_Channel3_IRQHandler                          System\startup_stm32f10x.o
+DMA1_Channel4_IRQHandler                          System\startup_stm32f10x.o
+DMA1_Channel5_IRQHandler                          System\startup_stm32f10x.o
+DMA1_Channel6_IRQHandler                          System\startup_stm32f10x.o
+DMA1_Channel7_IRQHandler                          System\startup_stm32f10x.o
+DebugMon_Handler                                  System\stm32f1xx_it.o
+                                                  System\startup_stm32f10x.o
+Default_Handler                                   System\startup_stm32f10x.o
+EXTI0_IRQHandler                                  System\startup_stm32f10x.o
+EXTI15_10_IRQHandler                              System\startup_stm32f10x.o
+EXTI1_IRQHandler                                  System\startup_stm32f10x.o
+EXTI2_IRQHandler                                  System\startup_stm32f10x.o
+EXTI3_IRQHandler                                  System\startup_stm32f10x.o
+EXTI4_IRQHandler                                  System\startup_stm32f10x.o
+EXTI9_5_IRQHandler                                System\startup_stm32f10x.o
+FLASH_IRQHandler                                  System\startup_stm32f10x.o
+Flash_EnablePrefetchBuffer                        src\MCAL\Flash\Flash_program.o
+                                                  src\Services\Init\Init.o
+Flash_EraseMass                                   src\MCAL\Flash\Flash_program.o
+Flash_ErasePage                                   src\MCAL\Flash\Flash_program.o
+                                                  src\APP\BootloaderProcess.o
+Flash_Lock                                        src\MCAL\Flash\Flash_program.o
+                                                  src\APP\BootloaderProcess.o
+Flash_SetLatency                                  src\MCAL\Flash\Flash_program.o
+                                                  src\Services\Init\Init.o
+Flash_Unlock                                      src\MCAL\Flash\Flash_program.o
+                                                  src\APP\BootloaderProcess.o
+Flash_WriteData                                   src\MCAL\Flash\Flash_program.o
+                                                  src\APP\BootloaderProcess.o
+Flash_WriteWord                                   src\MCAL\Flash\Flash_program.o
+GPIO_GetPinValue                                  src\MCAL\GPIO\GPIO_program.o
+GPIO_Init                                         src\MCAL\GPIO\GPIO_program.o
+                                                  src\Services\MTP\MTP.o
+GPIO_SetPinValue                                  src\MCAL\GPIO\GPIO_program.o
+GPIO_WritePort                                    src\MCAL\GPIO\GPIO_program.o
+HardFault_Handler                                 System\stm32f1xx_it.o
+                                                  System\startup_stm32f10x.o
+I2C1_ER_IRQHandler                                System\startup_stm32f10x.o
+I2C1_EV_IRQHandler                                System\startup_stm32f10x.o
+I2C2_ER_IRQHandler                                System\startup_stm32f10x.o
+I2C2_EV_IRQHandler                                System\startup_stm32f10x.o
+Interrupts_ClearPendingIRQ                        src\HAL\Interrupts\Interrupts_program.o
+Interrupts_DisableIRQ                             src\HAL\Interrupts\Interrupts_program.o
+Interrupts_EnableIRQ                              src\HAL\Interrupts\Interrupts_program.o
+                                                  src\Services\MTP\MTP.o
+Interrupts_GetActive                              src\HAL\Interrupts\Interrupts_program.o
+Interrupts_GetDevicePriority                      src\HAL\Interrupts\Interrupts_program.o
+Interrupts_GetPendingIRQ                          src\HAL\Interrupts\Interrupts_program.o
+Interrupts_GetPriority                            src\HAL\Interrupts\Interrupts_program.o
+Interrupts_SetDevicePriority                      src\HAL\Interrupts\Interrupts_program.o
+Interrupts_SetPendingIRQ                          src\HAL\Interrupts\Interrupts_program.o
+Interrupts_SetPriority                            src\HAL\Interrupts\Interrupts_program.o
+MTPCyclesToBreak                                  src\Services\MTP\MTP.o
+MTPWaitCycles                                     src\Services\MTP\MTP.o
+MTP_Init                                          src\Services\MTP\MTP.o
+                                                  src\APP\main.o
+MTP_Notify                                        src\Services\MTP\MTP.o
+MTP_ReceiveData                                   src\Services\MTP\MTP.o
+                                                  src\APP\BootloaderProcess.o
+MTP_ReceiveProcess                                src\Services\MTP\MTP.o
+MTP_SendData                                      src\Services\MTP\MTP.o
+                                                  src\APP\BootloaderProcess.o
+MTP_SendProcess                                   src\Services\MTP\MTP.o
+MemManage_Handler                                 System\stm32f1xx_it.o
+                                                  System\startup_stm32f10x.o
+NMI_Handler                                       System\stm32f1xx_it.o
+                                                  System\startup_stm32f10x.o
+NVIC_ClearPendingIRQ                              src\MCAL\NVIC\NVIC_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+NVIC_DisableIRQ                                   src\MCAL\NVIC\NVIC_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+NVIC_EnableIRQ                                    src\MCAL\NVIC\NVIC_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+NVIC_GetActive                                    src\MCAL\NVIC\NVIC_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+NVIC_GetDevicePriority                            src\MCAL\NVIC\NVIC_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+NVIC_GetPendingIRQ                                src\MCAL\NVIC\NVIC_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+NVIC_SetDevicePriority                            src\MCAL\NVIC\NVIC_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+NVIC_SetPendingIRQ                                src\MCAL\NVIC\NVIC_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+PVD_IRQHandler                                    System\startup_stm32f10x.o
+PendSV_Handler                                    System\stm32f1xx_it.o
+                                                  System\startup_stm32f10x.o
+RCCSystemInit                                     src\MCAL\RCC\RCC_program.o
+                                                  src\Services\Init\Init.o
+                                                  src\APP\BootloaderProcess.o
+RCC_DisableGPIOA                                  src\MCAL\RCC\RCC_program.o
+                                                  src\APP\BootloaderProcess.o
+RCC_DisableGPIOB                                  src\MCAL\RCC\RCC_program.o
+RCC_DisableGPIOC                                  src\MCAL\RCC\RCC_program.o
+RCC_DisableUART                                   src\MCAL\RCC\RCC_program.o
+                                                  src\APP\BootloaderProcess.o
+RCC_EnableGPIOA                                   src\MCAL\RCC\RCC_program.o
+                                                  src\Services\MTP\MTP.o
+RCC_EnableGPIOB                                   src\MCAL\RCC\RCC_program.o
+RCC_EnableGPIOC                                   src\MCAL\RCC\RCC_program.o
+RCC_EnableUART                                    src\MCAL\RCC\RCC_program.o
+                                                  src\Services\MTP\MTP.o
+RCC_GetSystemCoreClock                            src\MCAL\RCC\RCC_program.o
+RCC_IRQHandler                                    System\startup_stm32f10x.o
+RCC_ResetGPIOA                                    src\MCAL\RCC\RCC_program.o
+                                                  src\APP\BootloaderProcess.o
+RCC_ResetGPIOB                                    src\MCAL\RCC\RCC_program.o
+RCC_ResetGPIOC                                    src\MCAL\RCC\RCC_program.o
+RCC_ResetUART                                     src\MCAL\RCC\RCC_program.o
+                                                  src\APP\BootloaderProcess.o
+RCC_SetSystemClock72MHz                           src\MCAL\RCC\RCC_program.o
+                                                  src\Services\Init\Init.o
+RCC_StartHSE                                      src\MCAL\RCC\RCC_program.o
+                                                  src\Services\Init\Init.o
+RTCAlarm_IRQHandler                               System\startup_stm32f10x.o
+RTC_IRQHandler                                    System\startup_stm32f10x.o
+RXFrameBuffer                                     src\Services\MTP\MTP.o
+ReceiveProcessState                               src\Services\MTP\MTP.o
+ReceivedByte                                      src\Services\MTP\MTP.o
+ReceivedByteState                                 src\Services\MTP\MTP.o
+Reset_Handler                                     System\startup_stm32f10x.o
+SCB_GetSystemPriority                             src\MCAL\SCB\SCB_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+SCB_SetNVICPriorityGrouping                       src\MCAL\SCB\SCB_program.o
+SCB_SetSystemPriority                             src\MCAL\SCB\SCB_program.o
+                                                  src\HAL\Interrupts\Interrupts_program.o
+SCB_SetVectorTableOffset                          src\MCAL\SCB\SCB_program.o
+                                                  src\Services\Init\Init.o
+                                                  src\APP\BootloaderProcess.o
+SPI1_IRQHandler                                   System\startup_stm32f10x.o
+SPI2_IRQHandler                                   System\startup_stm32f10x.o
+SVC_Handler                                       System\stm32f1xx_it.o
+                                                  System\startup_stm32f10x.o
+SendProcessState                                  src\Services\MTP\MTP.o
+SentByteState                                     src\Services\MTP\MTP.o
+SysTick_Handler                                   System\stm32f1xx_it.o
+                                                  System\startup_stm32f10x.o
+SystemInit                                        src\Services\Init\Init.o
+                                                  System\startup_stm32f10x.o
+TAMPER_IRQHandler                                 System\startup_stm32f10x.o
+TIM1_BRK_IRQHandler                               System\startup_stm32f10x.o
+TIM1_CC_IRQHandler                                System\startup_stm32f10x.o
+TIM1_TRG_COM_IRQHandler                           System\startup_stm32f10x.o
+TIM1_UP_IRQHandler                                System\startup_stm32f10x.o
+TIM2_IRQHandler                                   System\startup_stm32f10x.o
+TIM3_IRQHandler                                   System\startup_stm32f10x.o
+TIM4_IRQHandler                                   System\startup_stm32f10x.o
+TXFrameBuffer                                     src\Services\MTP\MTP.o
+UARTPins                                          src\Services\MTP\MTP.o
+UART_Disable                                      src\MCAL\UART\UART_program.o
+                                                  src\Services\MTP\MTP.o
+UART_Enable                                       src\MCAL\UART\UART_program.o
+                                                  src\Services\MTP\MTP.o
+UART_Init                                         src\MCAL\UART\UART_program.o
+                                                  src\Services\MTP\MTP.o
+UART_ReadBuffer                                   src\MCAL\UART\UART_program.o
+                                                  src\Services\MTP\MTP.o
+UART_ReceiveData                                  src\MCAL\UART\UART_program.o
+UART_ReciveByte                                   src\MCAL\UART\UART_program.o
+UART_SendByte                                     src\MCAL\UART\UART_program.o
+UART_SendData                                     src\MCAL\UART\UART_program.o
+UART_SetInterruptHandler                          src\MCAL\UART\UART_program.o
+                                                  src\Services\MTP\MTP.o
+UART_WriteToBuffer                                src\MCAL\UART\UART_program.o
+                                                  src\Services\MTP\MTP.o
+USART1_IRQHandler                                 src\MCAL\UART\UART_program.o
+                                                  System\startup_stm32f10x.o
+USART1_func                                       src\MCAL\UART\UART_program.o
+USART2_IRQHandler                                 System\startup_stm32f10x.o
+USART3_IRQHandler                                 System\startup_stm32f10x.o
+USBWakeUp_IRQHandler                              System\startup_stm32f10x.o
+USB_HP_CAN1_TX_IRQHandler                         System\startup_stm32f10x.o
+USB_LP_CAN1_RX0_IRQHandler                        System\startup_stm32f10x.o
+UsageFault_Handler                                System\stm32f1xx_it.o
+                                                  System\startup_stm32f10x.o
+WWDG_IRQHandler                                   System\startup_stm32f10x.o
+__deregister_frame_info                           d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+__dso_handle                                      d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+__init_array_end                                  d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+__init_array_start                                d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+__libc_init_array                                 d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+                                                  System\startup_stm32f10x.o
+__preinit_array_end                               d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+__preinit_array_start                             d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+__register_frame_info                             d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
+_ebss                                             System\startup_stm32f10x.o
+_edata                                            System\startup_stm32f10x.o
+_estack                                           System\startup_stm32f10x.o
+_fini                                             d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
+_init                                             d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
+                                                  d:/prog_files/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+_sbss                                             System\startup_stm32f10x.o
+_sdata                                            System\startup_stm32f10x.o
+_sidata                                           System\startup_stm32f10x.o
+arr                                               src\APP\main.o
+buffer                                            src\APP\BootloaderProcess.o
+g_pfnVectors                                      System\startup_stm32f10x.o
+main                                              src\APP\main.o
+                                                  System\startup_stm32f10x.o
+msg                                               src\APP\main.o
+                                                  src\APP\BootloaderProcess.o
